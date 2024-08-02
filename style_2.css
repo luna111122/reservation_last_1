@@ -1,0 +1,573 @@
+.top{
+    height: 181px;
+    width: 100%;
+    display: flex;
+    fill: #FFF;
+
+    border-bottom: 1px solid #DFDFDF;
+    
+
+}
+
+#back{
+    margin-left: 65px;
+    margin-bottom:64px;
+    min-width: 29px;
+    height: 52px;
+    color: #9088A7;
+    margin-top: 65px;
+}
+.top_2{
+    margin-left:52px;
+    width:339px;
+    height: 102.78;
+    margin-top: 40px ;
+    
+}
+
+.search{
+    /* input-style:none; */
+    margin-top: 64px;
+    width:42px;
+    height:29px;
+    margin-left:36px;
+    /* -webkit-appearance: none; */
+    display: flex;
+    width: 733px;
+    padding: 18px 631px 18px 60px;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #E4E5F3;
+    background: #FFF;
+}
+.search > img {
+    margin-right: 20px;
+}
+.search > span{
+    color: #E4E5F3;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    width: 50px;
+}
+
+
+.dm{
+    margin-top:71px;
+    margin-left:58px;
+    margin-right: 72px;
+    width: 56px;
+    height: 51px;
+    flex-shrink: 0;
+    fill: #9088A7;
+}
+
+.mid1{
+    position: sticky;
+    margin: 10px 0px 0px 29px;
+    display: flex;
+    padding: 0px 0px 0px 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    height: 1000px;
+    top: 0;
+}
+.profile{
+    margin: 0px 22px 48px 36px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    padding: 25px;/*변경점*/
+}
+#person{
+    margin-top: 16px;
+    margin-left: 95px;
+    display: flex;
+    width: 110px;
+    height: 106px;
+    padding: 11.797px 11px 0px 11px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+#name{
+    color: #566285;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    justify-content: center;
+    align-items: center;
+}
+#subject{
+
+    color: #566285;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    justify-content: center;
+    align-items: center;
+}
+.fourth{
+    display: flex;
+    gap: 42px;
+}
+#login{
+    /* margin-left: 18px; */
+    display: flex;
+    width: 47+72px;
+    height: 10+42px;
+    padding: 21px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    /* background: #E4E5F3; */
+    color: #566285;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    flex-grow: 1;
+}
+#mine{
+    /* margin-right: 18px; */
+    display: flex;
+    width: 47+72px;
+    height: 10+42px;
+    padding: 21px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    /* background: #E4E5F3; */
+    color: #566285;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    flex-grow: 1;
+}
+#write{
+    
+    display: flex;
+    width: 260px;
+    height: 40px;
+    padding: 8px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    /* border-left: 2px solid #E4E5F3; */
+    /* background: #E4E5F3; */
+    color: #566285;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.category{
+    display: flex;
+    width: 272px;
+    padding: 0px 154px 299px 20px;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 4px;
+    gap: 35px;
+    padding-left: 60px;
+}
+.one{
+    margin-top: 11px;
+    display: flex;
+    gap: 20px
+}
+
+.one > img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.one > span{
+    color: #566285;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.two{
+    
+    display: flex;
+    gap: 19px
+    
+}
+.two > img{
+    width: 26px;
+    height: 22px;
+    fill: #566285;
+}
+.two > span{
+    color: #566285;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.three{
+    
+    display: flex;
+    gap: 20px
+    
+}
+.three > img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: #566285;
+}
+.three > span{
+    color: #566285;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.four{
+    
+    display: flex;
+    gap: 20px
+    
+}
+.four > img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.four > span{
+    color: #566285;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.five{
+
+    display: flex;
+    gap: 20px
+    
+}
+.five > img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.five > span{
+    color: #566285;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.div{
+    height:5000px;
+    display: flex;
+    /* gap: 49px; */
+}
+
+
+
+
+
+/*지원*/
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.box{ 
+    background-color: white;
+    /* width: 966px; */
+    border: 1px solid #DFDFDF;
+    border-radius: 20px;
+    display: flex;
+    margin-right: 71px;
+    overflow: hidden;
+}
+
+.inbox-profile{
+    min-width: 270px;
+    padding-left: 42px;
+}
+.top{
+
+    width: 100%;
+    height: 181px;
+}
+/* .down-side{ 
+    display: flex;
+    height: 100%; 컨테이너 박슨데 겹칠까봐
+} */
+.left-side{
+    background-color: red;
+}
+.right-side{
+    width: 100%;
+}
+.content{
+    margin-left: 26px;
+    margin-top: 40px; 
+}
+.inbox-profile img{
+    width: 177px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-bottom: 19px;
+}
+.message{
+    border: 0px solid;
+    border-radius: 50px;
+    /* background-color: #E4E5F3; */
+    text-align: center;
+    padding: 13.5px 65px;
+    font-size: 25px;
+    /* margin: 32px; */
+    font-weight: 700;
+    color: #566285;
+}
+
+
+
+/*오른쪽 사이드*/
+.word{
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+    min-width: 500px;
+    margin-right: 71px;
+    width: 500px;
+}
+.tag{
+    display: flex;
+    flex-direction: row;
+}
+.tag-word-dinner{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    color: #566285;
+}
+.tag img{
+    width: 34px;
+    height: 37px;
+    align-self: auto;
+}
+.title{
+    margin-top: 8px;
+    color: #353E6C;
+    text-align: left; /*글씨정렬 왼쪽으로*/
+    font-family: Pretendard;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.content-word{
+    margin-top: 38px;
+    color: #566285;
+    font-family: Pretendard;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.content-date img{
+    margin: 450px 0px 38px 300px;
+    color: #7288C4;
+    width: 118px;
+    height: 26px;
+    
+}
+
+
+
+/*박스 하단*/
+.box-downside{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 71px;
+    margin-top: 27px;
+    gap: 16px;
+}
+.rightside-time{
+    height: 44px;
+    width: 239px;
+}
+.reservation{
+    margin-left: 16px;
+    width: 94px;
+    height: 49px;
+}
+.group-people{
+    height: 49px;
+    width: 105px;
+}
+.reservation-word{
+    border: 0px solid;
+    border-radius: 50px;
+    /* background-color: #E4E5F3; */
+    text-align: center;
+    padding: 13.5px 65px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #566285;
+    /* margin-left: 16px; */
+}
+
+
+/*버튼 여기*/
+.buttons{
+    border: 0px solid black;
+    border-radius: 50px;
+    /* color: #566285;
+    text-align: center;
+    
+
+    font-family: Pretendard;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+    background-color: #E4E5F3;
+    border: 0px solid #E4E5F3;
+    border-radius: 50px;
+
+    margin-top: 25px;
+    width: 196px;
+    padding-top: 13.5px;
+    padding-bottom: 13.5px; */
+
+}
+.buttons:hover{
+    background-color: #d8d5e1;
+}
+.buttons:active{
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+}
+
+
+
+.buttons2{
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 50px;
+}
+.buttons2:hover{
+    background-color: rgb(255, 255, 255);
+}
+.buttons2:active{
+    box-shadow: 0 2px #e8e8e8;
+    transform: translateY(1px);
+}
+
+/*버튼 여기*/
+.buttonsss{
+    border: 0px solid black;
+    border-radius: 50px;
+    /* color: #566285;
+    text-align: center;
+    
+
+    font-family: Pretendard;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+    background-color: #E4E5F3;
+    border: 0px solid #E4E5F3;
+    border-radius: 50px;
+
+    margin-top: 25px;
+    width: 196px;
+    padding-top: 13.5px;
+    padding-bottom: 13.5px; */
+
+}
+.buttonsss:hover{
+    background-color: #d8d5e1;
+}
+.buttonsss:active{
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+}
+
+
+
+.buttonsss2{
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 50px;
+}
+.buttonsss2:hover{
+    background-color: rgb(255, 255, 255);
+}
+.buttonsss2:active{
+    box-shadow: 0 2px #e8e8e8;
+    transform: translateY(1px);
+}
+
